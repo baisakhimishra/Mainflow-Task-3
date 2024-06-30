@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple food webpage with dynamic photos">
+    <title>Delicious Food Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Delicious Food Gallery</h1>
+        <p>Explore our collection of mouth-watering dishes.</p>
+    </header>
+    <main>
+        <section id="food-gallery">
+            <h2>Food Gallery</h2>
+            <div class="food-item">
+                <img src="images/food1.jpg" alt="A delicious pizza with various toppings">
+                <p>Delicious Pizza</p>
+            </div>
+            <div class="food-item">
+                <img src="images/food2.jpg" alt="A bowl of fresh salad with various vegetables">
+                <p>Fresh Salad</p>
+            </div>
+        </section>
+
+        <section id="token-generator">
+            <h2>Generate Your Token Number</h2>
+            <form id="token-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit">Generate Token</button>
+            </form>
+            <p id="token-result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Delicious Food Gallery. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
